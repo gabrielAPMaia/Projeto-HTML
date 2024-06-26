@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="imgs/sociotorcedorSPFC.png" type="image.png">
+        <link rel="stylesheet" href="style.css">
+        <title>Socio Torcedor</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="div-header">
+                <h1 class="titulo">Socio Torcedor SPFC</h1>
+                <img class="escudo-header" src="imgs/São Paulo.png" alt="Escudo São Paulo">
+            </div>
+            <nav>
+                <div class="nav-links">
+                    <a class="links" href="index.html" accesskey="c">Voltar para página principal</a>
+                    <p><small>(alt+c)</small></p>
+                </div>
+            </nav>
+        </header>
+        <main id="main-cadastro">
+            <div class="box-form">
+                <h1>Cadastro para Socio Torcedor</h1>
+                <p>Complete os <u>dados solicidados</u> corretamente para completar o <b>cadastro</b></p>
+                <form>
+                    <label for="nome">Nome:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Digite seu nome" accesskey="n" tabindex="1">
+
+                    <br><br>
+
+                    <label for="idade">Idade:</label><br>
+                    <input type="number" name="idade" id="idade" placeholder="Insira sua idade" accesskey="i" tabindex="2">
+
+                    <br><br>
+
+                    <label for="email">Email:</label><br>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" accesskey="g" tabindex="3">
+
+                    <br><br>
+
+                    <label for="senha">Senha:</label><br>
+                    <input type="password" name="senha" id="senha" placeholder="Digite a sua senha" accesskey="s" tabindex="4">
+
+                    <br><br>
+                
+                    <label for="assinatura">Selecione o seu tipo de <b>assinatura</b>:</label> <br><br>
+                    <input type="radio" id="assinatura" name="assinatura" value="Vermelho" accesskey="v" tabindex="5"> Vermelho
+                    <input type="radio" id="assinatura" name="assinatura" value="Branco" accesskey="b" tabindex="6"> Branco
+                    <input type="radio" id="assinatura" name="assinatura" value="Preto" accesskey="p" tabindex="7"> Preto
+                    <input type="radio" id="assinatura" name="assinatura" value="Tricolor" accesskey="t" tabindex="8"> Tricolor
+                    <input type="radio" id="assinatura" name="assinatura" value="Diamante" accesskey="m" tabindex="9"> Diamante
+
+                    <br><br>
+
+                    <input type="button" value="Enviar" name="enviar" id="enviar">
+                </form>
+
+                
+                
+
+                <h3 class="text-destaque">Sumário</h3>
+                <ul>
+                    <li>Aperte <i>alt</i> mais a primeira letra da palavra para ativar ou acessar um elemento da página</li>
+                    <li>Aperte <i>alt</i> mais a letra "g" para acessar o campo do email</li>
+                    <li>Aperte <i>alt</i> mais a letra "m" para ativar o elemento "diamante" do radiobox</li>
+                </ul>
+            </div>
+        </main>
+    </body>
+</html>
